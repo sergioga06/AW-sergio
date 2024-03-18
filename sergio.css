@@ -1,0 +1,133 @@
+/* Sergio Gallardo Grima
+Codigo CSS
+Examen recuperación
+ */
+ *{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.menuh{
+    overflow: auto;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+}
+.menuh a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    width: 25%;
+    padding: 18px;
+
+}
+.menuh a:hover{
+    background-color: rgb(243, 186, 79);
+}
+.imagen1{
+    padding-top: 50px;
+}
+
+.imagen1 img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+/* Aqui tenemos todos los ajustes de la información principal */
+.contenedor{
+   display: flexbox;
+   flex-direction: column;
+   padding: 2%;
+}
+/* Ajuste del texto */
+.textmedio{
+   margin: auto;
+}
+.textmedio p{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+
+/* Ajuste del recuadro amarillo */
+.recuadro{
+    color: white;
+}
+.recuadro p{
+    background-color: rgb(167, 188, 74);
+    width: 15%;
+    padding: 1%;
+    text-align: center;
+    margin-left: 2%;
+    
+}
+/* Ajustes imagenes de información Principal */
+
+.img1 img{
+    padding-left: 80%;
+}
+.img2{
+    margin-left: 2%;
+}
+/* Ajuste del titulo de la información principal */
+.h1princi{
+    text-align: center;
+    font-family: Raleway;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+/* Configuración del formulario */
+.formu{
+    background-color: rgb(184, 184, 184);
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 4%;
+ }
+ 
+ 
+ .formu h1{
+    color: black;
+    text-align: left;
+    padding: 10px;
+ }
+ 
+ 
+ .formulario{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ .formulario > *{
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+ }
+
+ /* Footer */
+ .partes {
+    column-count: 4;
+    column-gap: 1em;
+    padding: 3em;
+    background-color: rgb(167, 188, 74);
+}
+.abajo{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 16px;
+}

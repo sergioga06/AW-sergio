@@ -1,0 +1,124 @@
+<!-- Sergio Gallardo Grima
+Examen recuperación
+Codigp HTML -->
+<!DOCTYPE html>
+<html lang="es-Es">
+<!-- Head con sus link para poder hacer referencia al css y al tipo de letra -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sergio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<!-- Cuerpo de la pagina HTML -->
+<body>
+    <!-- Cabecera de la pagina -->
+    <header>
+        <div class="titulo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+
+        <nav class="menuh">
+            <a href="">RECETAS</a>
+            <a href="">PRODUCTOS</a>
+            <a href="">RECOMENDACIONES</a>
+            <a href="">VIDEOS</a>
+        </nav>
+
+    </header>
+    <!-- contenido -->
+    <main>
+        <div class="imagen1">
+            <img src="img/platillo.jpg" alt="">
+        </div>
+        <h1 class="h1princi">La mejor receta para hacer pizza en tu hogar</h1>
+        <div class="contenedor">
+           
+            <div class="recuadro">
+                <p>30 Minutos</p>
+                <p>4 Personas</p>
+                <p>25 euros</p>
+            </div>
+            <div class="img1">
+                <img src="img/mini2.jpg" alt="">
+            </div>
+            <div class="textmedio">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores ex, aliquid quidem
+                    exercitationem corrupti. Iusto pariatur sint laborum. Nesciunt eius repellendus minima quasi harum
+                    alias iusto ipsum error ab.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat harum, minus nisi nobis eaque vero
+                    officia blanditiis vitae id deleniti asperiores, necessitatibus quasi molestias? Consequuntur
+                    architecto delectus blanditiis tenetur corporis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellendus perferendis,
+                    consequuntur, perspiciatis eos vitae atque assumenda quis ipsam eligendi impedit culpa
+                    exercitationem excepturi maxime facilis beatae facere illo rerum!</p>
+            </div>
+            <di class="img2">
+            <img src="img/mini1.jpg" alt="">
+            </di>
+           
+        </div>
+        <div class="formu">
+            <h1>Contacto</h1>
+            <div class="linea"></div>
+            <form action="contact.php" method="post" class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tu Nombre" name="nombre">
+                <label for="apellido">Apellidos</label>
+                <input type="text" placeholder="Tus Apellidos" name="apellido">
+                <label for="País">Pais</label>
+                <select id="pais" name="pais">
+                    <option value="australia">España</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <label for="asunto">Asunto</label>
+                <textarea placeholder="Escribe algo" rows="3" name="asunto"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+
+        </div>
+    </main>
+    <!-- Pie de pagina y widgets -->
+    <footer>
+        <div class="partes">
+            <article>
+                <p><strong>Recetas</strong>
+                    COMIDA MEXICANA
+                    PIZZAS
+                    POSTRES
+                    COMIDA ASIATICA
+                    COMIDA RÁPIDA
+                </p>
+                <p><strong>Recetas</strong>
+                    COMIDA MEXICANA
+                    PIZZAS
+                    POSTRES
+                    COMIDA ASIATICA
+                    COMIDA RÁPIDA
+                </p>
+                <p><strong>Recetas</strong>
+                    COMIDA MEXICANA
+                    PIZZAS
+                    POSTRES
+                    COMIDA ASIATICA
+                    COMIDA RÁPIDA
+                </p>
+                <p><strong>Recetas</strong>
+                    COMIDA MEXICANA
+                    PIZZAS
+                    POSTRES
+                    COMIDA ASIATICA
+                    COMIDA RÁPIDA
+                </p>
+            </article>
+        </div>
+        <p class="abajo">Receta fácil</p>
+    </footer>
+</body>
+
+</html>
